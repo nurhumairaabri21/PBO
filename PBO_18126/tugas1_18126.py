@@ -1,32 +1,40 @@
-a=100
-b=50
+#menjalankan python
+a=10
+b=2
 c=a/b
-  print(c)
-2.0
+print(c)
+print("-------------------------")
 
-    nama="Nur Humaira"
-    pekerjaan="Mahasiswa"
-     print(pekerjaan)
-Mahasiswa
+#penulisan variabel
+Nama="Nur humaira"
+_nama="nur humaira"
+nama="irha"
+print(Nama)
+print(_nama)
+print(nama)
+print("-------------------------")
 
-   tanya=input("masukan nama?")
-masukan nama?Nur Humaira
-   print(tanya)
-Nur Humaira
+#mengenal nilai dan tipe data dalam python
+a=1
+makanan ="sate"
+print(type(makanan))
+print(type(a))
+print("-------------------------")
 
-    x1=input("masukan nilai x1:")
-masukan nilai x1:1
-    x2=input("masukan nilai x2:")
-masukan nilai x2:7
-   x3=x1+x2
-   print(x3)
-17
+#tipe data yang belum diketahui dalam input
+tanya=input("masukan nama?")
+print(tanya)
+print("-------------------------")
+#secara defaut bertipe str
+x1=input("masukan nilai x1 : ")
+x2=input("masukan nilai x2 : ")
+x3=x1+x2
+print("nilai x3=", x3)
+print("-------------------------")
 
-   x1=int(input("masukan nilai x1:"))
-masukan nilai x1:10
-   x2=int(input("masukan nilai x2:"))
-masukan nilai x2:20
-   x3=x1+x2
-   print(x3)
-30
-
+#menentukan tipe data dari input
+x1=int(input("masukan nilai x1 : "))
+x2=int(input("masukan nilai x2 : "))
+x3=x1+x2
+print("nilai x3=", x3)
+print("-------------------------")
