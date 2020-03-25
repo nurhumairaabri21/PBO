@@ -26,7 +26,7 @@ masukan nilai x2:7
 masukan nilai x1:10
    x2=int(input("masukan nilai x2:"))
 masukan nilai x2:20
->>> x3=x1+x2
->>> print(x3)
+   x3=x1+x2
+   print(x3)
 30
->>>
+
