@@ -1,5 +1,5 @@
 #Range
-for variabel_baru4 in range(10)
+for variabel_baru4 in range(10):
 	print("for range",variabel_baru4)
 
 #range tertuktur
